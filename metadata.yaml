@@ -1,0 +1,16 @@
+name: dynatrace
+summary: The charm to install the Dynatace.
+maintainers:
+    - Konstantinos Tsakalozos <konstantinos.tsakalozos@canonical.com>
+description: |
+  Digital performance management for business, operations and development
+tags:
+  - infrastructure
+  - dynatrace
+subordinate: true
+series:
+  - xenial
+requires:
+  juju-info:
+    interface: juju-info
+    scope: container

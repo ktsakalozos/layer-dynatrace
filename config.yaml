@@ -1,0 +1,13 @@
+options:
+  env_id:
+    type: string
+    default: ''
+    description: The environemnt ID provided by Dynatrace
+  token:
+    type: string
+    default: ''
+    description: The Token provided by Dynatrace
+  connection_ep:
+    type: string
+    default: ''
+    description: The connection endpoint port

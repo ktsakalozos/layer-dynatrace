@@ -1,0 +1,3 @@
+repo: https://github.com/ktsakalozos/layer-dynatrace.git
+includes:
+  - 'layer:basic'
